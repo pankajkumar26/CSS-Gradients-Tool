@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Gradient Tool</title>
+  </head>
+  <body>
+    <header>
+      <h1>Gradient Tool</h1>
+    </header>
+
+    <main>
+      <!-- Gradient Generator -->
+      <div class="card">
+        <!-- Gradient Colors -->
+        <div class="gradientColors">
+
+        </div>
+
+        <div class="colorInputs">
+
+          <form class="">
+            <input type="text" id="color1" placeholder="pink" />
+            <input type="text" id="color2" placeholder="magenta" />
+          </form>
+
+          <div class="copyCSS">
+            <button id="copyCSS" type="button" title="Copy CSS" class="fa fa-regular fa-clipboard"><p>Copy</p></button>
+            <p id='copySuccess'class="fa fa-solid fa-check"></p>
+          </div>
+          
+        </div>
+
+        <div class="playPauseButtons">
+          <button id="start" title="Play" class="fa fa-solid fa-play"></button>
+          <button id="stop" title="Pause" class="fa fa-solid fa-pause"></button>
+        </div>
+
+        
+      </div>
+    </main>
+
+    <script src="./script.js">
+
+    </script>
+  </body>
+</html>

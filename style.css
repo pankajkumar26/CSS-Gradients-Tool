@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all ease 1s;
+}
+body{
+    padding: 3rem;
+    background-color: #4158D0;
+    background: linear-gradient(90deg, #4158D0 0%, #C850C0 30%, #FFCC70 66%, #ffffff 100%);
+}
+.gradientColors{
+    height: 16rem;
+    width: 16rem;
+    background: slategray;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    transition: all ease-in-out 1s;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+header,main, .colorInputs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header{
+    margin-bottom: 2rem;
+}
+
+.card{
+    background-color: #ffffff;
+    height: 24rem;
+    width: 18rem;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+}
+
+.colorInputs{
+    padding: 0 0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+.colorInputs > form > input[type=text]{
+    border: 1px solid rgb(177 175 175 / 57%);
+    box-shadow: 1px 1px 4px yellow;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 4px;
+}
+
+.colorInputs > form > input[type=text]:focus{
+    outline:none!important;
+    border: 1px solid black;
+}
+.playPauseButtons > button {
+    border: none;
+    font-size: large;
+    transition: all ease-in-out 0.4s;
+}
+
+.playPauseButtons{
+    margin: 0.5rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:1rem;
+}
+
+#copyCSS{
+    color: rgb(101, 111, 122);
+}
+#copyCSS:hover{
+    color: rgb(77, 84, 91);
+}
+
+#copySuccess{
+    visibility: hidden;
+    position: relative;
+    top : -15px;
+    left: -20px;
+    transition: all ease-in-out 1s;
+    color: rgb(12, 184, 12);
+}
