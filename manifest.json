@@ -1,0 +1,14 @@
+{
+    "name": "Gradient Tool",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action":{
+        "default_popup": "index.html",
+        "default_icon": "favicon.png"
+    },
+    "icons":{
+        "128":"favicon.png"
+    },
+    "permissions": ["activeTab"]
+
+}
