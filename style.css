@@ -6,7 +6,6 @@
 }
 body{
     padding: 3rem;
-    background-color: #4158D0;
     background: linear-gradient(90deg, #4158D0 0%, #C850C0 30%, #FFCC70 66%, #ffffff 100%);
 }
 .gradientColors{
