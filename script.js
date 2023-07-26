@@ -25,8 +25,6 @@ const startChangingBG = () => {
         let percentValue1 = percent1.value;
         let percentValue2 = percent2.value;
 
-        percent1.style.accentColor = inputValue1;
-        percent2.style.accentColor = inputValue2;
         colorCode = generateLinearGradientColors(inputValue1, inputValue2, percentValue1, percentValue2);
         gradientColors.style.backgroundImage = colorCode;
     }
